@@ -197,7 +197,7 @@ names.forEach((item, i) => {
 
 //5 
 //Необходимо выполнить деструктуризацию объекта (для всех полей). Выведите полученные переменные в консоль. 
-const obj = {
+/*const obj = {
 	age: 22,
 	favColor: 'red',
 	height: 188,
@@ -208,3 +208,34 @@ const obj = {
 const { age: age, favColor: favColor, height: height, pet: pet, money: money} = obj
 
 console.log(age, favColor, height, pet, money)
+*/
+
+//6
+//Необходимо создать новый объект obj2, в котором будут все поля объекта obj, но с обновленными значениями полей как у объекта updateObj. 
+// const obj = {
+// 	age: 22,
+// 	favColor: 'red',
+// 	height: 188,
+// 	pet: 'dog',
+// 	money: 12300
+// };
+
+// const updateObj = {
+// 	age: 23,
+// 	favColor: 'blue',
+// 	money: 11450
+// };
+// function updateObj(obj1, obj2){
+//     obj1.find()
+// }
+// const obj2 = {/* ... */};
+// console.log(obj2);
+/**
+ * {
+ *	age: 23,
+ *	favColor: 'blue',
+ *	height: 188,
+ *	pet: 'dog',
+ *	money: 11450
+ * }
+ */
